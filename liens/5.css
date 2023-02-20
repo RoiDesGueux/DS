@@ -341,16 +341,21 @@ display: none;
   }
 
 
-/* **************** IMAGE PRINCIPALE ************* display: block;
-  
-    */
+/* **************** IMAGE PRINCIPALE ************* */
 #imagePrincipale {
   padding-top: 260px;
-  background: url(img/background/arriere.png) no-repeat 60% 60%;
+  background: url(/media1/arriere.png) no-repeat 60% 60%;
   background-size: cover;
   height: 799px;
 }
-
+h1 {
+  font-family: 'Dancing Script', cursive;
+  text-align: center;
+  color: #db262f;
+  font-size: 6em;
+  margin-top: 100px;
+  text-shadow: 1px 3px 2px rgb(0, 0, 0);
+}
 #premierTrait {
   height: 1px;
   width: 25%;
@@ -358,7 +363,7 @@ display: none;
   background-color: #191b21;
   box-shadow: 1px 3px 2px #191b21;
 }
-.h3 {
+h3 {
   text-align: center;
   color:antiquewhite;
   font-size: 3.2em;
@@ -373,10 +378,10 @@ display: none;
 p{
     color: #f1f2f6;
 }
-h5{
+h4{
   font-style: italic;
-  text-align: center;
-  font-size: medium;
+  
+  
   font-family: Arial, Helvetica, sans-serif;
 }
 #presentation {
@@ -396,7 +401,7 @@ h5{
   justify-content: space-between;
   padding: 30px 20%;  
 }
-.imagesPrestations h5 {
+.imagesPrestations h4 {
   text-align: center;
   font-size: 1.4em;
   margin: 18px;
@@ -404,108 +409,140 @@ h5{
 }
 .imagesPrestations img {
   border-radius: 10px;
-  box-shadow: 5px 5px 3px 1px rgb(0 0 0 / 70%);
+  box-shadow: 5px 5px 3px 1px rgba(0,0,0,0.7);
   height: 345px;
   width: 635px;
   display: flex;
 }
-.imagesPrestations img:hover {
-  opacity: 0.5;
-  transform: scale(1.05);
-  transition: 0.6s ease-in-out;
-}
+.txt h4{
+  display: flex;
+ 
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 10px;
+  margin: 27px -60px 0 0;
 
-.ecarlate{
-  margin-left: -10px;
- display: flex;
- margin-top: 30px;
 }
-h6 {
-  font-family: 'Dancing Script', cursive;
-  color: #ffa576;
-  font-size: 6em;
-  margin-left: 1%;
-  margin-top: 100px;
-  text-shadow: 1px 3px 2px rgb(0, 0, 0);
-  z-index: 3;
-}
-#titre{
-    font-family: 'Dancing Script', cursive;
-    text-align: center;
-    color: #1ca6e3;
-    font-size: 6em;
-    text-shadow: 1px 3px 2px rgb(0 0 0);
-    margin-top: -15px;
-  }
 
 
 .violet{
-  margin-left: 340px;
-  margin-top: 10px;
+  margin-left: 300px;
+  margin-top: 100px;
   display: flex;
 }
-.txt-violet {
+.txt-violet{
   margin-left: 1000px;
-  margin-top: -220px;
-  text-transform: none;
-  text-align: center;
-  font-size: 1.3em;
-  display: flex;
-  height: 5px;
-  margin: 30px -820px 2 0;
+  margin-top: -300px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    height: 5px;
+    width: 980px;
+    
+   margin: 30px -820px 2 0;
+    
 }
-.txt-violet a {
-  color: #1ca6e3;
+#download{
+   display: flex;
+   height: 50px;
+    width: 00px;
+    margin-left: 400px;
+    margin-top: 80;
+}
+#cle{
+  display: flex;
+  margin-left: -10px;
+  margin-top: 155px;
+}
+#cente{
+  block-size: center;
 
-}
+}  
 
-.violets{
-  margin-left: 340px;
-  margin-top: 10px;
-  display: flex;
-}
-.txt-violets {
-  margin-left: 1000px;
-  margin-top: -220px;
-  text-transform: none;
-  text-align: center;
-  font-size: 1.3em;
-  display: flex;
-  height: 5px;
-  margin: 30px -820px 2 0;
-}
-.txt-violets a {
-  color: #eaeaec;
+
+#titre{
+
 }
 #texte {
   padding: 0px;
-  transition: transform .2s;
+  color: #019ee5;
+  transition: transform .2s; /* Animation */
   width: 400px;
   height: 0px;
   margin: -1 auto;
-  margin-left: 70px;
-  text-shadow: 1px 3px 2px rgb(0 0 0);
-  margin-top: -38px;
+  margin-left: 135px;
+  text-shadow: 1px 3px 2px rgb(0, 0, 0);
+
+  margin-top: -35px;
 }
 #texte:hover {
 	
  
-  transform: scale(1.1);
+  transform: scale(1.5);
 }
-#textes {
-  padding: 0px;
-  transition: transform .2s;
-  width: 400px;
-  height: 0px;
-  margin: -1 auto;
-  margin-left: 150px;
-  text-shadow: 1px 3px 2px rgb(0 0 0);
-  margin-top: -38px;
+#point{
+  color: white;
 }
-#textes:hover {
+.ul {
+    list-style-type: none;
+    margin: 0 2px;
+    padding: 0;
+    width: 250px;
+    background-color: #f1f1f1;
+    position: absolute;
+    font-size: 1em;
+    text-align: center;
+    margin-top: 82em;
+  }
+  
+  .ul li a {
+    display: block;
+    color: #191b21;
+    padding: 28px 40px;
+    text-decoration: none;
+  }
+  
+  /* color change on hover */
+  .ul li a:hover {
+    background-color: #fad390;
+    color: #fff;
+  }
+  
+    .icon {
+      margin-right: 10px;
+    }
+
+    #textes {
+        padding: 0px;
+        color: #db262f;
+        transition: transform .2s; /* Animation */
+        width: 400px;
+        height: 0px;
+        margin: -1 auto;
+        margin-left: 140px;
+        text-shadow: 1px 3px 2px rgb(0, 0, 0);
+        margin-top: -36px;
+      }
+      .violets{
+        margin-left: 300px;
+        margin-top: 320px;
+        display: flex;
+      }
+      .txt-violets{
+        margin-left: 1000px;
+        margin-top: -270px;
+          text-transform: uppercase;
+          text-align: center;
+          font-size: 18px;
+          display: flex;
+          height: 5px;
+          width: 980px;
+         margin: 30px -820px 2 0;
+      }
+      #textes:hover {
 	
  
-  transform: scale(1.1);
-}
-
-
+        transform: scale(1.5);
+      }
+    

@@ -432,7 +432,7 @@ h6 {
 #titre{
     font-family: 'Dancing Script', cursive;
     text-align: center;
-    color: #dadada;
+    color: #fcb900;
     font-size: 6em;
     text-shadow: 1px 3px 2px rgb(0 0 0);
     margin-top: -15px;
@@ -455,7 +455,7 @@ h6 {
   margin: 30px -820px 2 0;
 }
 .txt-violet a {
-  color: #dadada;
+  color: #fcb900;
 
 }
 
@@ -475,7 +475,7 @@ h6 {
   margin: 30px -820px 2 0;
 }
 .txt-violets a {
-  color: #eaeaec;
+  color: #554b4b;
 }
 #texte {
   padding: 0px;
